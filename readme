@@ -1,0 +1,28 @@
+The program superstring can be provided an input file
+to read the strings and evaluate the string that can
+be formed with maximum number of other substrings.
+
+The program will print the string the first three levels
+ by default, can be changed to print additional by changing
+macro MAX_LEVELS_TO_DISPLAY i.e the strings with maximum number of 
+substrings, the string with one less than maximum number of substrings and so 
+on.
+
+the program optionally takes an argument -enable_debug
+to enable debug.
+
+eg 
+
+$ superstring -enable_debug
+Enter the name of the input file
+wordslist
+
+The maximum number of substrings in a string is 3
+
+String with 3 substrings
+shz::s::h::z
+
+String with 2 substrings
+aah::aa::h
+
+String with 1
